@@ -13,14 +13,18 @@ This project is aimed at developing a text summarizer tool that can generate con
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/TextSummarizer.git`
+1. Clone the repository: `git clone https://github.com/Quaxguy/TextSummarizer.git`
 2. Navigate to the project directory: `cd TextSummarizer`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
 
 1. Place the text file you want to summarize in the project directory.
-2. Run the summarizer tool: `python summarize.py --input_file input.txt --output_file output.txt --summary_length 3`
+2. 
+Run the summarizer tool: `python summarize.py -t input.txt`
+Run the summarizer tool: `python summarize.py "text"`
+
+
 3. The summarized text will be saved in the specified output file.
 
 ## Contributing
